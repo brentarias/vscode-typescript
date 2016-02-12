@@ -1,3 +1,7 @@
+# Brent: this is an over-aggressive approach for hiding generated .js files.
+*.js
+*.js.map
+
 # Logs
 logs
 *.log

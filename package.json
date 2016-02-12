@@ -1,0 +1,14 @@
+{
+  "name": "ts-sample",
+  "version": "1.0.0",
+  "description": "Demonstration of a Typescript project for VSCode",
+  "main": "HelloWorld.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.7.5"
+  }
+}

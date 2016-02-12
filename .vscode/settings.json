@@ -1,0 +1,13 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "typescript.tsdk": "./node_modules/typescript/lib",
+    
+    //From the Visual Studio Code explorer, this rule hides the .js
+    //files (and maps) that are generated from the .ts files.  It only works
+    //if a .js file has the same base name as the .ts file, and if 
+    //both files are in the same folder.
+    "files.exclude": {    
+      //"**/*.js": { "when": "$(basename).ts"},
+      "**/*.js.map": { "when": "$(basename)"}
+    }    
+}
